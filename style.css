@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+ul {
+    height: 25px;
+    width: 95%; /* Largura */
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: fixed;
+}
+
+.img-topo {
+    height: 25px;  /* Altura */
+}
+
+video {
+    width: 100vw; /* Largura */
+    min-height: 80vh; /* Altura */
+}
+
+.capa {
+    position: absolute;
+    bottom: 20%;   /* TOP - CIMA, BOTTOM - BAIXO, LEFT - ESQUERDA, RIGHT- DIREITA */
+    left: 5%;
+    width: 35%;
+    z-index: 3;
+}
+
+.capa-titulo {
+    color: white;
+    font-size: 80px;  /* Tamanho da fonte */
+    margin-bottom: 5px;
+    font-weight: bold; /* Grossura da fonte */
+}
+
+.capa-descricao {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.link-assistir {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer; /* Mãosinha */
+}
+
+.link-info {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.imagem-carrossel {
+    height: 150px;
+}
+
+#carouselExampleControls {
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.titulo-carrossel {
+    color: white;
+    font-size: 30px;   
+    margin-bottom: 10px;
+}
+
+/* 
+    Classe = .
+    ID = #
+*/
+
