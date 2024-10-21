@@ -12,6 +12,8 @@
 </head>
 
 <body>
+  <audio src="audio/tudum-netflix-sound.mp3" class="audio"></audio>
+
     <ul> <!-- Lista -->
         <li>
             <img src="img/logo.png" class="img-topo">
@@ -30,9 +32,10 @@
         <a class="link-info">Mais Informações</a>
     </div>
 
-    <video src="video/stranger-things.mp4" autoplay muted loop> </video>
+    <video src="video/stranger-things.mp4" autoplay muted loop class="video"> </video>
 
 
+    <button class="botao-som">🔈</button>
 
   <!-- Dois tipos de apelidos
     Classes - Usar em vários itens
@@ -68,6 +71,18 @@
         </a>
       </div>
 
+      <div class="modal">
+        <div class="modal-conteudo">
+          <h2>Stranger Things</h2>
+          <p>Stranger Things é uma série de ficção científica criada pelos irmãos Duffer para a
+            Netflix. Situada na cidade ficcional de Hawkins, Indiana, a trama começa no ano de 1983 com o
+            desaparecimento do garoto Will.
+          </p>
+          <p>Gênero: <strong>Ação</strong></p>
+          <p>Ano de Lançamento: <strong>2015</strong></p>
+        </div>
+      </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -78,6 +93,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+    <script src="scripts.js">
+
+    </script>
+
 </body>
 
 </html>

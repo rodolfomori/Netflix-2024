@@ -7,6 +7,7 @@ body {
     font-family: "Montserrat", sans-serif;
     position: relative;
     padding-bottom: 100px;
+    padding-top: 20px;
 }
 
 ul {
@@ -81,6 +82,34 @@ video {
     margin-bottom: 10px;
 }
 
+.botao-som {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 4;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+.modal {
+    display: none;  /* Mostrar NADA */
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-conteudo {
+    background-color: #181818;
+    margin: 30px auto; 
+    padding: 20px;
+    width: 60%;
+    color: white;
+}
 /* 
     Classe = .
     ID = #
